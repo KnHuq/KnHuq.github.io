@@ -314,6 +314,25 @@ footer {
     color: #74808a;
     margin: 0;
 }
+
+#about li {
+    display: block;
+    color: #74808a;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+#experience li {
+    display: block;
+
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+
 #experience {
     padding: 50px 15px;
     text-align: center;
@@ -375,6 +394,11 @@ footer {
     font-size: 0.9em;
     margin: 0;
 }
+.vtimeline-content li {
+    color: #74808a;
+    font-size: 0.9em;
+    margin: 0;
+}
 .vtimeline-point {
     position: relative;
     display: block;
@@ -416,7 +440,7 @@ footer {
     margin-bottom: 50px;
 }
 .education-block {
-    max-width: 700px;
+    max-width: 900px;
     margin: 0 auto 30px auto;
     padding: 15px;
     border: 1px solid #dcd9d9;
